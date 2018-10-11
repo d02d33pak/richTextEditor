@@ -1,9 +1,31 @@
 * {
   padding: 0px;
   margin: 0px;
+  border: 0px;
+  border-radius: 0px;
 }
 .container {
-  width: 80px;
+  background-color: white;
+  width: 80%;
+  color: grey;
+  border: 2px solid grey;
+  border-radius: 2px;
   margin: 20px auto;
   padding: 20px;
+}
+
+.editor {
+  margin: 4px auto;
+  padding: 8px;
+  border: 2px solid grey;
+  border-radius: 2px;
+}
+
+.btn {
+  background-color: white;
+  color: grey;
+  padding: 6px;
+  margin: 16px auto;
+  border: 2px solid grey;
+  border-radius: 2px;
 }
